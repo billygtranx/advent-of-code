@@ -77,6 +77,7 @@ public class part1 {
                 total += game;
             }
             System.out.println("Total: " + total);
+            reader.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
