@@ -16,7 +16,7 @@ public class part2 {
     public static void main(String[] args) {
         try {
             Properties properties = new Properties();
-            properties.load(new FileInputStream("day1/day1/src/main/resources/config.properties"));
+            properties.load(new FileInputStream("day1/src/main/resources/config.properties"));
 
             FileReader file = new FileReader(properties.getProperty("input"));
             BufferedReader reader = new BufferedReader(file);

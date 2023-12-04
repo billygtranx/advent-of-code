@@ -35,7 +35,7 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass.set("day2.App")
+    mainClass.set("day2.part1.MainKt")
 }
 
 tasks.named<Test>("test") {
