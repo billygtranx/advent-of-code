@@ -26,3 +26,5 @@ replay_pid*
 #other
 .vscode*
 *.code-workspace
+input
+problem
